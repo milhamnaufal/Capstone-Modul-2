@@ -1,6 +1,7 @@
 # Capstone-Modul-2
 
 **Deskripsi Project Capstone Modul 2**
+
 Project pada Capstone 2 ini bertema data analisis. Dalam project ini diberikan dataset berupa data Public Transportation dengan mengambil data secara spesifik pada Transportasi Transjakarta selama bulan April 2023 dalam bentuk file CSV. Pada project ini, saya akan melakukan analisa terhadap data dari transportasi Transjakarta selama bulan April 2023 yang berisikan sejumlah informasi seperti data pengguna Transjakarta (Meliputi gender, jenis transaksi, dll), data transportasi (Meliputi nama rute, dll), dan lainnya. Adapun tahapan dalam melakukan analisa dapat dibagi menjadi beberapa bagian sebagai berikut.
 
 **1. Data Understanding**
