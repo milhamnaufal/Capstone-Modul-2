@@ -1,17 +1,56 @@
-# Capstone-Modul-2
+**Latar Belakang**
+Projek ini bertujuan untuk menganalisis riwayat transportasi Transjakarta pada bulan April 2023. PT Transjakarta ingin memahami tren dan insight dari data riwayat transportasi untuk merumuskan program transportasi yang lebih nyaman bagi pengguna di masa depan.
 
-**Deskripsi Project Capstone Modul 2**
+**Prosedur Analisis**
+1. Data Understanding: Mengidentifikasi informasi yang terdapat dalam dataset untuk memahami data dengan lebih baik.
+2. Perumusan Masalah: Merumuskan permasalahan yang akan diteliti dalam analisis.
+3. Data Cleaning: Melakukan pembersihan data untuk mengatasi noise yang dapat mengganggu analisis, termasuk penanganan missing value, outlier, whitespace, dan format data.
+4. Data Analysis: Mengekstrak insight dan tren dari dataset sesuai dengan permasalahan yang telah ditentukan sebelumnya. Analisis akan disertai dengan visualisasi seperti Bar Plot, Line Plot, dan Scatter Plot. Setiap hasil analisis akan disertai rekomendasi yang dapat dijadikan acuan bagi PT Transjakarta.
+5. Data Understanding
+   
+Dataset mengandung informasi berikut:
 
-Project pada Capstone 2 ini bertema data analisis. Dalam project ini diberikan dataset berupa data Public Transportation dengan mengambil data secara spesifik pada Transportasi Transjakarta selama bulan April 2023 dalam bentuk file CSV. Pada project ini, saya akan melakukan analisa terhadap data dari transportasi Transjakarta selama bulan April 2023 yang berisikan sejumlah informasi seperti data pengguna Transjakarta (Meliputi gender, jenis transaksi, dll), data transportasi (Meliputi nama rute, dll), dan lainnya. Adapun tahapan dalam melakukan analisa dapat dibagi menjadi beberapa bagian sebagai berikut.
+TransID: Kode unik setiap transaksi.
 
-**1. Data Understanding**
+payCardID: Kode unik setiap kartu pembayaran pengguna.
 
-Tahapan ini merupakan tahapan untuk mempelajari serta mengetahui dataset kita yang meliputi pengetahuan terhadap masing-masing kolom pada dataset beserta tipe data dari masing-masing kolom dataset.
+payCardBank: Jenis transaksi pengguna.
 
-**2. Data Cleaning**
+payCardName: Nama pengguna dari setiap kartu pembayaran.
 
-Tahapan ini merupakan tahapan untuk mengetahui serta melakukan handling terhadap anomali yang ada pada dataset. Data cleaning sendiri terbagi menjadi beberapa bagian, yaitu handling missing value, pengecekan whitespace, pengecekan outlier, dan pengecekan terhadap duplikat
+payCardSex: Gender pengguna dari setiap kartu pembayaran.
 
-**3. Data Visualization and Analysis**
+direction: Arah rute setiap pengguna (0 = pergi; 1 = kembali).
 
-Tahapan ini merupakan tahapan untuk melakukan analisa terhadap dataset dengan tujuan untuk memperoleh sebuah insight beserta rekomendasi. Analisa pada dataset dapat dilakukan dengan bantuan visualisasi seperti barplot, lineplot, dan lainnya
+tapInStops: Kode unik terminal tempat pengguna mulai berangkat.
+
+tapInStopsName: Nama terminal tempat pengguna mulai berangkat.
+
+tapInStopsLat: Koordinat latitude terminal tempat pengguna berangkat.
+
+tapInStopsLon: Koordinat longitude terminal tempat pengguna berangkat.
+
+stopStartSeq: Urutan terminal tempat pengguna mulai berangkat dalam sebuah rute.
+
+tapInTime: Waktu dalam bentuk tanggal beserta jam pengguna mulai berangkat.
+
+tapOutStops: Kode unik terminal tempat pengguna turun.
+
+tapOutStopsName: Nama terminal tempat pengguna turun.
+
+tapOutStopsLat: Koordinat latitude terminal tempat pengguna turun.
+
+tapOutStopsLon: Koordinat longitude terminal tempat pengguna turun.
+
+stopEndSeq: Urutan terminal tempat pengguna turun dalam sebuah rute.
+
+tapOutTime: Waktu dalam bentuk tanggal beserta jam pengguna turun.
+
+payAmount: Biaya yang harus dikeluarkan pengguna.
+
+**Poin Analisis**
+1. Korelasi antar variabel
+2. Jumlah transaksi berdasarkan waktu (harian dan jam).
+3. Jumlah transaksi berdasarkan 5 lokasi terminal terbanyak.
+4. Jumlah transaksi berdasarkan gender dan jenis pembayaran.
+5. Statistika deskriptif pay amount berdasarkan gender.
