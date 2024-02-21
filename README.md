@@ -1,4 +1,5 @@
 **Latar Belakang**
+
 Projek ini bertujuan untuk menganalisis riwayat transportasi Transjakarta pada bulan April 2023. PT Transjakarta ingin memahami tren dan insight dari data riwayat transportasi untuk merumuskan program transportasi yang lebih nyaman bagi pengguna di masa depan.
 
 **Prosedur Analisis**
@@ -49,6 +50,7 @@ tapOutTime: Waktu dalam bentuk tanggal beserta jam pengguna turun.
 payAmount: Biaya yang harus dikeluarkan pengguna.
 
 **Poin Analisis**
+
 1. Korelasi antar variabel
 2. Jumlah transaksi berdasarkan waktu (harian dan jam).
 3. Jumlah transaksi berdasarkan 5 lokasi terminal terbanyak.
